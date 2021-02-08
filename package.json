@@ -57,8 +57,8 @@
     "eject": "react-scripts eject",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,md,scss,yaml,yml}'",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --color .",
-    "cypress-open": "yarn run cypress open",
-    "cypress-run": "yarn run cypress run"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "browserslist": [
     ">0.2%",
@@ -69,6 +69,7 @@
     "@babel/core": "^7.3.4",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.4",
+    "@testing-library/cypress": "^7.0.3",
     "@testing-library/dom": "^7.11.0",
     "cypress": "^6.2.1",
     "cypress-wait-until": "^1.7.1",
